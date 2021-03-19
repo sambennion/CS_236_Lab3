@@ -1,0 +1,26 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/samuelbennion/CLionProjects/CS_236_Lab3/Database.cpp
+Database.h
+/Users/samuelbennion/CLionProjects/CS_236_Lab3/Database.h
+
+/Users/samuelbennion/CLionProjects/CS_236_Lab3/Database.h
+
+/Users/samuelbennion/CLionProjects/CS_236_Lab3/Header.cpp
+Header.h
+/Users/samuelbennion/CLionProjects/CS_236_Lab3/Header.h
+
+/Users/samuelbennion/CLionProjects/CS_236_Lab3/Header.h
+
+/Users/samuelbennion/CLionProjects/CS_236_Lab3/Relation.cpp
+Relation.h
+/Users/samuelbennion/CLionProjects/CS_236_Lab3/Relation.h
+
+/Users/samuelbennion/CLionProjects/CS_236_Lab3/Relation.h
+
