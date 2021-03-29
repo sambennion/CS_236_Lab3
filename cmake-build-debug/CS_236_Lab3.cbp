@@ -98,16 +98,16 @@
 		<Unit filename="/Users/samuelbennion/CLionProjects/CS_236_Lab3/DatalogProgram.h">
 			<Option target="CS_236_Lab3"/>
 		</Unit>
-		<Unit filename="/Users/samuelbennion/CLionProjects/CS_236_Lab3/Header.cpp">
-			<Option target="CS_236_Lab3"/>
-		</Unit>
-		<Unit filename="/Users/samuelbennion/CLionProjects/CS_236_Lab3/Header.h">
-			<Option target="CS_236_Lab3"/>
-		</Unit>
 		<Unit filename="/Users/samuelbennion/CLionProjects/CS_236_Lab3/IDAutoma.cpp">
 			<Option target="CS_236_Lab3"/>
 		</Unit>
 		<Unit filename="/Users/samuelbennion/CLionProjects/CS_236_Lab3/IDAutoma.h">
+			<Option target="CS_236_Lab3"/>
+		</Unit>
+		<Unit filename="/Users/samuelbennion/CLionProjects/CS_236_Lab3/Interpreter.cpp">
+			<Option target="CS_236_Lab3"/>
+		</Unit>
+		<Unit filename="/Users/samuelbennion/CLionProjects/CS_236_Lab3/Interpreter.h">
 			<Option target="CS_236_Lab3"/>
 		</Unit>
 		<Unit filename="/Users/samuelbennion/CLionProjects/CS_236_Lab3/Lexer.cpp">
@@ -162,6 +162,12 @@
 			<Option target="CS_236_Lab3"/>
 		</Unit>
 		<Unit filename="/Users/samuelbennion/CLionProjects/CS_236_Lab3/Token.h">
+			<Option target="CS_236_Lab3"/>
+		</Unit>
+		<Unit filename="/Users/samuelbennion/CLionProjects/CS_236_Lab3/Tuple.cpp">
+			<Option target="CS_236_Lab3"/>
+		</Unit>
+		<Unit filename="/Users/samuelbennion/CLionProjects/CS_236_Lab3/Tuple.h">
 			<Option target="CS_236_Lab3"/>
 		</Unit>
 		<Unit filename="/Users/samuelbennion/CLionProjects/CS_236_Lab3/UndefinedCommentAutoma.cpp">

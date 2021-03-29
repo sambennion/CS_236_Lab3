@@ -8,12 +8,13 @@
 void Parser::Parse(vector<Token*> tokens) {
     try{
         datalogProgram(tokens);
-    }catch(Token* err){
+    }catch(Token* err) {
         cout << "Failure!\n  " << err->toString();
         return;
     }
-    cout << "Success!" << endl;
-    cout << datalog.toString();
+    //We don't need toString() for this lab
+//    cout << "Success!" << endl;
+//    cout << datalog.toString();
 }
 void Parser::datalogProgram(vector<Token*> tokens) {
     if(tokens.at(it)->getTokenType() == "SCHEMES"){

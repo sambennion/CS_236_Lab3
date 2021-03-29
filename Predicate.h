@@ -15,10 +15,24 @@ public:
     Predicate(string name){
         this->name = name;
     }
-    void addParameter(Parameter* param){
+    void addParameter(Parameter* param) {
         parameters.push_back(param);
     }
     string toString();
+
+    std::string getName(){
+        return name;
+    }
+    vector<Parameter*> getParameters(){
+        return parameters;
+    }
+    vector<string> getParametersAsString(){
+        vector<string> pAsString;
+        for(Parameter* p : parameters){
+            pAsString.push_back(p->toString());
+        }
+        return pAsString;
+    }
 };
 
 

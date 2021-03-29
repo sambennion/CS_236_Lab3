@@ -4,10 +4,16 @@
 
 #ifndef CS_236_LAB3_DATABASE_H
 #define CS_236_LAB3_DATABASE_H
-
-
+#include "Relation.h"
+#include <map>
 class Database {
-
+private:
+    std::map<std::string, Relation> relations;
+public:
+    //Database();
+    void addRelation(std::string name, Relation relation){
+        relations.insert({name, relation});
+    }
 };
 
 

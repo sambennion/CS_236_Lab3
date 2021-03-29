@@ -33,7 +33,9 @@ public:
     Parameter* expression(vector<Token*> tokens);
     void operate(vector<Token*> tokens);
     void testToken(vector<Token*> tokens, string terminal);
-
+    DatalogProgram getDatalogProgram(){
+        return datalog;
+    }
 };
 
 

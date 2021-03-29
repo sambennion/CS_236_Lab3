@@ -272,22 +272,9 @@ CMakeFiles/CS_236_Lab3.dir/Relation.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CS_236_Lab3.dir/Relation.cpp.s"
 	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/samuelbennion/CLionProjects/CS_236_Lab3/Relation.cpp -o CMakeFiles/CS_236_Lab3.dir/Relation.cpp.s
 
-CMakeFiles/CS_236_Lab3.dir/Header.cpp.o: CMakeFiles/CS_236_Lab3.dir/flags.make
-CMakeFiles/CS_236_Lab3.dir/Header.cpp.o: ../Header.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/samuelbennion/CLionProjects/CS_236_Lab3/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/CS_236_Lab3.dir/Header.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CS_236_Lab3.dir/Header.cpp.o -c /Users/samuelbennion/CLionProjects/CS_236_Lab3/Header.cpp
-
-CMakeFiles/CS_236_Lab3.dir/Header.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CS_236_Lab3.dir/Header.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/samuelbennion/CLionProjects/CS_236_Lab3/Header.cpp > CMakeFiles/CS_236_Lab3.dir/Header.cpp.i
-
-CMakeFiles/CS_236_Lab3.dir/Header.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CS_236_Lab3.dir/Header.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/samuelbennion/CLionProjects/CS_236_Lab3/Header.cpp -o CMakeFiles/CS_236_Lab3.dir/Header.cpp.s
-
 CMakeFiles/CS_236_Lab3.dir/Database.cpp.o: CMakeFiles/CS_236_Lab3.dir/flags.make
 CMakeFiles/CS_236_Lab3.dir/Database.cpp.o: ../Database.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/samuelbennion/CLionProjects/CS_236_Lab3/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object CMakeFiles/CS_236_Lab3.dir/Database.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/samuelbennion/CLionProjects/CS_236_Lab3/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/CS_236_Lab3.dir/Database.cpp.o"
 	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CS_236_Lab3.dir/Database.cpp.o -c /Users/samuelbennion/CLionProjects/CS_236_Lab3/Database.cpp
 
 CMakeFiles/CS_236_Lab3.dir/Database.cpp.i: cmake_force
@@ -297,6 +284,32 @@ CMakeFiles/CS_236_Lab3.dir/Database.cpp.i: cmake_force
 CMakeFiles/CS_236_Lab3.dir/Database.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CS_236_Lab3.dir/Database.cpp.s"
 	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/samuelbennion/CLionProjects/CS_236_Lab3/Database.cpp -o CMakeFiles/CS_236_Lab3.dir/Database.cpp.s
+
+CMakeFiles/CS_236_Lab3.dir/Tuple.cpp.o: CMakeFiles/CS_236_Lab3.dir/flags.make
+CMakeFiles/CS_236_Lab3.dir/Tuple.cpp.o: ../Tuple.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/samuelbennion/CLionProjects/CS_236_Lab3/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object CMakeFiles/CS_236_Lab3.dir/Tuple.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CS_236_Lab3.dir/Tuple.cpp.o -c /Users/samuelbennion/CLionProjects/CS_236_Lab3/Tuple.cpp
+
+CMakeFiles/CS_236_Lab3.dir/Tuple.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CS_236_Lab3.dir/Tuple.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/samuelbennion/CLionProjects/CS_236_Lab3/Tuple.cpp > CMakeFiles/CS_236_Lab3.dir/Tuple.cpp.i
+
+CMakeFiles/CS_236_Lab3.dir/Tuple.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CS_236_Lab3.dir/Tuple.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/samuelbennion/CLionProjects/CS_236_Lab3/Tuple.cpp -o CMakeFiles/CS_236_Lab3.dir/Tuple.cpp.s
+
+CMakeFiles/CS_236_Lab3.dir/Interpreter.cpp.o: CMakeFiles/CS_236_Lab3.dir/flags.make
+CMakeFiles/CS_236_Lab3.dir/Interpreter.cpp.o: ../Interpreter.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/samuelbennion/CLionProjects/CS_236_Lab3/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object CMakeFiles/CS_236_Lab3.dir/Interpreter.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CS_236_Lab3.dir/Interpreter.cpp.o -c /Users/samuelbennion/CLionProjects/CS_236_Lab3/Interpreter.cpp
+
+CMakeFiles/CS_236_Lab3.dir/Interpreter.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CS_236_Lab3.dir/Interpreter.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/samuelbennion/CLionProjects/CS_236_Lab3/Interpreter.cpp > CMakeFiles/CS_236_Lab3.dir/Interpreter.cpp.i
+
+CMakeFiles/CS_236_Lab3.dir/Interpreter.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CS_236_Lab3.dir/Interpreter.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/samuelbennion/CLionProjects/CS_236_Lab3/Interpreter.cpp -o CMakeFiles/CS_236_Lab3.dir/Interpreter.cpp.s
 
 # Object files for target CS_236_Lab3
 CS_236_Lab3_OBJECTS = \
@@ -315,8 +328,9 @@ CS_236_Lab3_OBJECTS = \
 "CMakeFiles/CS_236_Lab3.dir/UndefinedCommentAutoma.cpp.o" \
 "CMakeFiles/CS_236_Lab3.dir/UndefinedStringAutoma.cpp.o" \
 "CMakeFiles/CS_236_Lab3.dir/Relation.cpp.o" \
-"CMakeFiles/CS_236_Lab3.dir/Header.cpp.o" \
-"CMakeFiles/CS_236_Lab3.dir/Database.cpp.o"
+"CMakeFiles/CS_236_Lab3.dir/Database.cpp.o" \
+"CMakeFiles/CS_236_Lab3.dir/Tuple.cpp.o" \
+"CMakeFiles/CS_236_Lab3.dir/Interpreter.cpp.o"
 
 # External object files for target CS_236_Lab3
 CS_236_Lab3_EXTERNAL_OBJECTS =
@@ -336,11 +350,12 @@ CS_236_Lab3: CMakeFiles/CS_236_Lab3.dir/Token.cpp.o
 CS_236_Lab3: CMakeFiles/CS_236_Lab3.dir/UndefinedCommentAutoma.cpp.o
 CS_236_Lab3: CMakeFiles/CS_236_Lab3.dir/UndefinedStringAutoma.cpp.o
 CS_236_Lab3: CMakeFiles/CS_236_Lab3.dir/Relation.cpp.o
-CS_236_Lab3: CMakeFiles/CS_236_Lab3.dir/Header.cpp.o
 CS_236_Lab3: CMakeFiles/CS_236_Lab3.dir/Database.cpp.o
+CS_236_Lab3: CMakeFiles/CS_236_Lab3.dir/Tuple.cpp.o
+CS_236_Lab3: CMakeFiles/CS_236_Lab3.dir/Interpreter.cpp.o
 CS_236_Lab3: CMakeFiles/CS_236_Lab3.dir/build.make
 CS_236_Lab3: CMakeFiles/CS_236_Lab3.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/samuelbennion/CLionProjects/CS_236_Lab3/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Linking CXX executable CS_236_Lab3"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/samuelbennion/CLionProjects/CS_236_Lab3/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Linking CXX executable CS_236_Lab3"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/CS_236_Lab3.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

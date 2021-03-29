@@ -9,6 +9,8 @@ CMakeFiles/CS_236_Lab3.dir/CommentAutoma.cpp.o
 CMakeFiles/CS_236_Lab3.dir/Database.cpp.o
  /Users/samuelbennion/CLionProjects/CS_236_Lab3/Database.cpp
  /Users/samuelbennion/CLionProjects/CS_236_Lab3/Database.h
+ /Users/samuelbennion/CLionProjects/CS_236_Lab3/Relation.h
+ /Users/samuelbennion/CLionProjects/CS_236_Lab3/Tuple.h
 CMakeFiles/CS_236_Lab3.dir/DatalogProgram.cpp.o
  /Users/samuelbennion/CLionProjects/CS_236_Lab3/DatalogProgram.cpp
  /Users/samuelbennion/CLionProjects/CS_236_Lab3/DatalogProgram.h
@@ -16,14 +18,22 @@ CMakeFiles/CS_236_Lab3.dir/DatalogProgram.cpp.o
  /Users/samuelbennion/CLionProjects/CS_236_Lab3/Predicate.h
  /Users/samuelbennion/CLionProjects/CS_236_Lab3/Rule.h
  /Users/samuelbennion/CLionProjects/CS_236_Lab3/Token.h
-CMakeFiles/CS_236_Lab3.dir/Header.cpp.o
- /Users/samuelbennion/CLionProjects/CS_236_Lab3/Header.cpp
- /Users/samuelbennion/CLionProjects/CS_236_Lab3/Header.h
 CMakeFiles/CS_236_Lab3.dir/IDAutoma.cpp.o
  /Users/samuelbennion/CLionProjects/CS_236_Lab3/Automaton.h
  /Users/samuelbennion/CLionProjects/CS_236_Lab3/IDAutoma.cpp
  /Users/samuelbennion/CLionProjects/CS_236_Lab3/IDAutoma.h
  /Users/samuelbennion/CLionProjects/CS_236_Lab3/Token.h
+CMakeFiles/CS_236_Lab3.dir/Interpreter.cpp.o
+ /Users/samuelbennion/CLionProjects/CS_236_Lab3/Database.h
+ /Users/samuelbennion/CLionProjects/CS_236_Lab3/DatalogProgram.h
+ /Users/samuelbennion/CLionProjects/CS_236_Lab3/Interpreter.cpp
+ /Users/samuelbennion/CLionProjects/CS_236_Lab3/Interpreter.h
+ /Users/samuelbennion/CLionProjects/CS_236_Lab3/Parameter.h
+ /Users/samuelbennion/CLionProjects/CS_236_Lab3/Predicate.h
+ /Users/samuelbennion/CLionProjects/CS_236_Lab3/Relation.h
+ /Users/samuelbennion/CLionProjects/CS_236_Lab3/Rule.h
+ /Users/samuelbennion/CLionProjects/CS_236_Lab3/Token.h
+ /Users/samuelbennion/CLionProjects/CS_236_Lab3/Tuple.h
 CMakeFiles/CS_236_Lab3.dir/Lexer.cpp.o
  /Users/samuelbennion/CLionProjects/CS_236_Lab3/Automaton.h
  /Users/samuelbennion/CLionProjects/CS_236_Lab3/CommentAutoma.h
@@ -60,6 +70,7 @@ CMakeFiles/CS_236_Lab3.dir/Predicate.cpp.o
 CMakeFiles/CS_236_Lab3.dir/Relation.cpp.o
  /Users/samuelbennion/CLionProjects/CS_236_Lab3/Relation.cpp
  /Users/samuelbennion/CLionProjects/CS_236_Lab3/Relation.h
+ /Users/samuelbennion/CLionProjects/CS_236_Lab3/Tuple.h
 CMakeFiles/CS_236_Lab3.dir/Rule.cpp.o
  /Users/samuelbennion/CLionProjects/CS_236_Lab3/Parameter.h
  /Users/samuelbennion/CLionProjects/CS_236_Lab3/Predicate.h
@@ -74,6 +85,9 @@ CMakeFiles/CS_236_Lab3.dir/StringAutoma.cpp.o
 CMakeFiles/CS_236_Lab3.dir/Token.cpp.o
  /Users/samuelbennion/CLionProjects/CS_236_Lab3/Token.cpp
  /Users/samuelbennion/CLionProjects/CS_236_Lab3/Token.h
+CMakeFiles/CS_236_Lab3.dir/Tuple.cpp.o
+ /Users/samuelbennion/CLionProjects/CS_236_Lab3/Tuple.cpp
+ /Users/samuelbennion/CLionProjects/CS_236_Lab3/Tuple.h
 CMakeFiles/CS_236_Lab3.dir/UndefinedCommentAutoma.cpp.o
  /Users/samuelbennion/CLionProjects/CS_236_Lab3/Automaton.h
  /Users/samuelbennion/CLionProjects/CS_236_Lab3/Token.h
@@ -87,16 +101,20 @@ CMakeFiles/CS_236_Lab3.dir/UndefinedStringAutoma.cpp.o
 CMakeFiles/CS_236_Lab3.dir/main.cpp.o
  /Users/samuelbennion/CLionProjects/CS_236_Lab3/Automaton.h
  /Users/samuelbennion/CLionProjects/CS_236_Lab3/CommentAutoma.h
+ /Users/samuelbennion/CLionProjects/CS_236_Lab3/Database.h
  /Users/samuelbennion/CLionProjects/CS_236_Lab3/DatalogProgram.h
  /Users/samuelbennion/CLionProjects/CS_236_Lab3/IDAutoma.h
+ /Users/samuelbennion/CLionProjects/CS_236_Lab3/Interpreter.h
  /Users/samuelbennion/CLionProjects/CS_236_Lab3/Lexer.h
  /Users/samuelbennion/CLionProjects/CS_236_Lab3/MatcherAutomaton.h
  /Users/samuelbennion/CLionProjects/CS_236_Lab3/Parameter.h
  /Users/samuelbennion/CLionProjects/CS_236_Lab3/Parser.h
  /Users/samuelbennion/CLionProjects/CS_236_Lab3/Predicate.h
+ /Users/samuelbennion/CLionProjects/CS_236_Lab3/Relation.h
  /Users/samuelbennion/CLionProjects/CS_236_Lab3/Rule.h
  /Users/samuelbennion/CLionProjects/CS_236_Lab3/StringAutoma.h
  /Users/samuelbennion/CLionProjects/CS_236_Lab3/Token.h
+ /Users/samuelbennion/CLionProjects/CS_236_Lab3/Tuple.h
  /Users/samuelbennion/CLionProjects/CS_236_Lab3/UndefinedCommentAutoma.h
  /Users/samuelbennion/CLionProjects/CS_236_Lab3/UndefinedStringAutoma.h
  /Users/samuelbennion/CLionProjects/CS_236_Lab3/main.cpp

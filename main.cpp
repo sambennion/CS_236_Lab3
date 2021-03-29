@@ -4,6 +4,8 @@
 #include <string>
 #include "Lexer.h"
 #include "Parser.h"
+#include "Interpreter.h"
+
 int main(int argc, char* argv[]) {
     //cout << argv[1] << endl;
     std::ifstream inputFile;
@@ -21,5 +23,6 @@ int main(int argc, char* argv[]) {
     scanner->Run(inputString);
     //scanner->printTokens();
     parser->Parse(scanner->getTokens());
+    Interpreter interpreter(parser->getDatalogProgram());
     return 0;
 }
