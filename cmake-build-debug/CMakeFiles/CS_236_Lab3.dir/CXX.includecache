@@ -16,6 +16,10 @@ Token.h
 Automaton.h
 /Users/samuelbennion/CLionProjects/CS_236_Lab3/Automaton.h
 
+/Users/samuelbennion/CLionProjects/CS_236_Lab3/Database.cpp
+Database.h
+/Users/samuelbennion/CLionProjects/CS_236_Lab3/Database.h
+
 /Users/samuelbennion/CLionProjects/CS_236_Lab3/Database.h
 Relation.h
 /Users/samuelbennion/CLionProjects/CS_236_Lab3/Relation.h
@@ -90,7 +94,13 @@ vector
 Parameter.h
 /Users/samuelbennion/CLionProjects/CS_236_Lab3/Parameter.h
 
+/Users/samuelbennion/CLionProjects/CS_236_Lab3/Relation.cpp
+Relation.h
 /Users/samuelbennion/CLionProjects/CS_236_Lab3/Relation.h
+
+/Users/samuelbennion/CLionProjects/CS_236_Lab3/Relation.h
+__bit_reference
+-
 Tuple.h
 /Users/samuelbennion/CLionProjects/CS_236_Lab3/Tuple.h
 set

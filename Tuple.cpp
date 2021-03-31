@@ -20,3 +20,21 @@ void Tuple::printTuples(){
     std::cout << "\n" << std::endl;
 
 }
+
+Tuple::Tuple() {
+    NULL;
+}
+
+void Tuple::setRelationName(std::string name) {
+    relationName = name;
+}
+
+std::string Tuple::toString() {
+    std::string s;
+    s += "( ";
+    for(std::string v : values){
+        s += v + ", ";
+    }
+    s += " )";
+    return s;
+}

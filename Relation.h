@@ -1,3 +1,4 @@
+#include <__bit_reference>
 //
 // Created by Samuel Bennion on 2/24/21.
 //
@@ -28,7 +29,7 @@ public:
         std::string s =  "";
         //ss << name << "\n";
         s += name + "( ";
-        //std::cout << s << std::endl;
+        //std::cout << s << "\n";
         for(std::string h : headers){
             s += h + ", ";
         }
@@ -41,9 +42,46 @@ public:
     std::string getName(){
         return name;
     }
-    void select(int index, std::string value2);
-    void select(int index1, int index2);
-    void project(std::vector<int> indices);
+    std::set<Tuple> getTuples(){
+        return tuples;
+    }
+    Relation select(int index, std::string value2);
+    Relation select(int index1, int index2);
+    Relation project(std::vector<int> indices);
+    Relation rename(std::vector<std::string> ids);
+
+    int numOfTuples(std::vector<std::string> vars);
+    std::string tuplesResults(std::vector<int> indices, std::vector<std::string> vars, int num){
+        std::stringstream ss;
+        for(Tuple t : tuples){
+
+            int outputtedNum = 0;
+            for(unsigned int i = 0; i < t.getValues().size(); i++){
+                if(vars[i%indices.size()] == t.getValues()[i]){
+//                    NULL;
+
+                }
+                else if( (i == t.getValues().size() - 1) || i == vars.size() - 1){
+                    ss << vars[i%indices.size()] << "=" << t.getValues()[i] << "\n";
+                }
+                else {
+                    int newNumber = (t.getValues().size() / num);
+                    if ( outputtedNum == (newNumber - 1)){
+                        ss << vars[i % indices.size()] << "=" << t.getValues()[i] << "\n";
+                        outputtedNum = 0;
+
+                    }
+                    else {
+                        ss << "  " << vars[i % indices.size()] << "=" << t.getValues()[i] << ", ";
+                        outputtedNum++;
+
+                    }
+                }
+
+            }
+        }
+        return ss.str();
+    };
 };
 
 

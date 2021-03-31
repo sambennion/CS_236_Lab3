@@ -21,13 +21,13 @@ public:
 //        values.push_back(value);
 //    }
     //Tuple();
+    Tuple();
+    //~Tuple();
     Tuple(std::string _name, std::vector<std::string> _values){
         relationName = _name;
         values = _values;
     }
-    void setRelationName(std::string name){
-        relationName = name;
-    }
+    void setRelationName(std::string name);
     void setTupleValues(std::vector<std::string> tuples){
         values = tuples;
     }
@@ -35,17 +35,15 @@ public:
         return relationName;
     }
     void printTuples();
-    std::string toString(){
-        std::string s;
-        s += "( ";
-        for(std::string v : values){
-            s += v + ", ";
-        }
-        s += " )";
-        return s;
-    }
+    std::string toString();
     bool operator< (const Tuple t) const {
         return values < t.values;
+    }
+    std::vector<std::string> getValues(){
+        return values;
+    }
+    void addValue(std::string value){
+        values.push_back(value);
     }
 };
 

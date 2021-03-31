@@ -12,6 +12,9 @@ public:
     Parameter(Token* token){
         this->token = token;
     }
+    Token getToken(){
+        return *token;
+    };
     std::string toString();
 };
 
