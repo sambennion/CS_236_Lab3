@@ -6,9 +6,7 @@
 #ifndef CS_236_LAB3_RELATION_H
 #define CS_236_LAB3_RELATION_H
 #include "Tuple.h"
-//#include "Interpreter.h"
 #include <set>
-#include <utility>
 class Relation {
 private:
     std::string name;

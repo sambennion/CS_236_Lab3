@@ -9,7 +9,7 @@ void Tuple::printTuples(){
     //cout << "relationName: " << relationName << endl;
     //cout << "starting printTuple()..." << endl;
     int j = 0;
-    for (int i = 0; i < values.size(); i++){
+    for (unsigned int i = 0; i < values.size(); i++){
         if ((j%2 == 0)){
             std::cout << "\n";
         }
@@ -22,7 +22,7 @@ void Tuple::printTuples(){
 }
 
 Tuple::Tuple() {
-    NULL;
+   // NULL;
 }
 
 void Tuple::setRelationName(std::string name) {
