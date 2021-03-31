@@ -63,7 +63,7 @@ int Relation::numOfTuples(std::vector<std::string> vars){
     int howMany = 0;
     for(Tuple t : tuples){
         std::stringstream ss;
-        for (int j = 0; j < t.getValues().size(); j++) {
+        for (unsigned int j = 0; j < t.getValues().size(); j++) {
             howMany++;
         }
     }

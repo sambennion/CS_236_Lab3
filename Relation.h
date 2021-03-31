@@ -8,6 +8,7 @@
 #include "Tuple.h"
 //#include "Interpreter.h"
 #include <set>
+#include <utility>
 class Relation {
 private:
     std::string name;
@@ -17,20 +18,20 @@ private:
 public:
     Relation();
     Relation(std::string _name, std::vector<std::string> _headers){
-        name = _name;
-        headers = _headers;
+        name = std::move(_name);
+        headers = std::move(_headers);
     }
-    void addTuple(Tuple tuple){
+    void addTuple(const Tuple& tuple){
         tuples.insert(tuple);
     }
     std::string toString(){
         //toString();
         //std::stringstream ss;
-        std::string s =  "";
+        std::string s;
         //ss << name << "\n";
         s += name + "( ";
         //std::cout << s << "\n";
-        for(std::string h : headers){
+        for(const std::string& h : headers){
             s += h + ", ";
         }
         s += ")\n";
@@ -51,7 +52,7 @@ public:
     Relation rename(std::vector<std::string> ids);
 
     int numOfTuples(std::vector<std::string> vars);
-    std::string tuplesResults(std::vector<int> indices, std::vector<std::string> vars, int num){
+    std::string tuplesResults(const std::vector<int>& indices, std::vector<std::string> vars, int num){
         std::stringstream ss;
         for(Tuple t : tuples){
 

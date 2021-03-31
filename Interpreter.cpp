@@ -40,7 +40,7 @@ void Interpreter::evalQueries(vector<Predicate *> queries) {
 
         //Everything below is for printing the query results
         stringstream ss;
-        for(int i = 0; i < qParams.size(); i++){
+        for(unsigned int i = 0; i < qParams.size(); i++){
             ss << qParams[i]->toString();
             if(!(i == (qParams.size()-1))){
                 ss << ",";
